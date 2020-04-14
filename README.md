@@ -4,5 +4,5 @@
 #Using 
     HTML
     CSS
-
-![Alt text](/relative/path/to/img_Home.PNG?raw=true "Optional Title")
+    
+![ScreenShot](https://raw.github.com/GabrielFernella/Created_Layout_Twitter_Home/blob/master/img_Home.PNG)
