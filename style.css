@@ -100,13 +100,18 @@ header#main-header div.side button {
 div.banner {
     height: 380px;
     width: 100%;
-    background: #3bb9e3;
+    /*background: #3bb9e3;*/
 
     display: flex;
     align-items: center;
     justify-content: center;
 
     color: #fff;
+}
+
+div.banner img {
+    height: 380px;
+    width: 100%;
 }
 
 /* Bar */
@@ -282,6 +287,12 @@ div.wrapper-content aside.profile .followers ul li {
     margin: 0 5px 10px 0;
 }
 
+div.wrapper-content aside.profile .followers ul li img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
 div.wrapper-content aside.profile .images ul {
     list-style: none;
     display: flex;
@@ -298,6 +309,12 @@ div.wrapper-content aside.profile .images ul li {
     Unindo o FlexGrow e FlexShrink*/
     flex: 1 0 auto;
     margin: 0 5px 5px 0;
+}
+
+div.wrapper-content aside.profile .images ul li img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
 }
 
 /*Time Line center*/
